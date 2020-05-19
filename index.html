@@ -1,16 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
+       
+        {
+            for (let i = 0; i < 50; i++) {
+                console.log(i, "lalalalalalalalala");
+            }
+        }
+       
+        {
+            for (let i = 0; i <= 14; i = i + 2) {
+                console.log(i, "mamamamamamamamama");
+            }
+        }
+       
+        {
+            for (let i = 0; i <= 100; i += 100) {
+                console.log(i);
+            }
+        }
+       
+        {
+            for (let i = 100; i >= 0; i -= 100) { console.log(i); }
+        }
+       
+        // {
+        //     let school = prompt("what's yuor school?")
+        //     console.log(school);
+        // }
         
+        // {
+        //     let name = prompt("what's your name?")
+        //     olds = prompt("how old are you?")
+        //     console.log("my name is" + name + ".i'm" + olds + " years old")
+        // }
+        
+        
+        
+        {
 
+
+            for (let i = 5; i <= 70; i++) {
+                if (i % 5 == 0) {
+                    console.log(i);
+                }
+
+
+            }
+
+            // {
+            //     for (i=1;i<=8;i++){
+            //     let name = prompt("what's your name?")
+            //     olds = prompt("how old are you?")
+            // console.log(i,"my name is" + name + ".i'm" + olds + " years old")
+            //     }
+            // }
+        }
+// bài tập secion 5
+        // {
+        //     console.log("Tính chỉ số BMI")
+        //       let weight = prompt("nhập cân năng của mày vào: ")
+        //       height = prompt("viết chiều cao vafooo đứa kia đm thấy tính BMI mà ko viết chiều cao tính cc à:  ")
+        //       BMI = weight/(height*height)
+        //       console.log("BMI =")
+        //       if (BMI<18.5){
+        //           console.log("gầy vãi cặc, ăn nhiều vào, mày gầy như que nhang ấy" )
+        //         } 
+        //        else if (BMI>18.5 , BMI< 24.9 ){
+        //           console.log("mày có vẻ ngon đấy")
+        //        }
+        //        else if  (BMI>25 , BMI<29.9){
+        //           console.log("Hơi béo rồi đấy!GIẢM CÂN ĐI ")
+        //        }
+        //        else if (BMI>30 , BMI<34.9){
+        //            console.log("béo vãi cặc mày éo giảm cân là ăn l đấy (éo phải nghĩa đen đâu)")
+        //        }
+        //        else if (BMI>35 , BMI<39.9){
+        //            console.log("Con hợi này, mày béo lắm rồi con chó éo cần phải tính tao cũng biết mày béo,giảm cân đi lần cuối đấy")
+        //        }
+        //        else if  (BMI>40){
+        //            console.log("thôi mày sắp lên kệ ngồi rồi, éo cần giảm đâu ăn tiếp cho đời nó sướng")
+        //        }
+        // }
+
+        {
+            let phuongtrinh = prompt("mày định tính phương trình bậc mấy, thằng lười : bậc")
+            console.log("mày định tính phương trình bậc mấy, thằng lười : bậc" + phuongtrinh)
+            if (phuongtrinh == 2){
+                let a = prompt("nhập a vào : ")
+                b = prompt("nhập b vào :")
+                c = prompt("nhập c đi con chó : ")
+                delta = b**2 -4*a*c
+                if (delta>0){
+                    console.log("phương trình có nghiệm")
+                    nghiem1 = (-b + Math.sqrt(delta))/(2*a)
+                    nghiem2 = (-b - Math.sqrt(delta))/(2*a)
+                    console.log("nghiệm thứ nhất=" + nghiem1)
+                    console.log("\nNghiệm thứ hai=" + nghiem2)
+                    
+                }
+                   else if(delta<0){
+                     console.log("phương trình vô nghiệm")
+                 }
+                   else if(delta==0){
+                     console.log("phương trình có nghiệm kép")
+                     nghiem1 = (-b + Math.sqrt(delta))/(2*a)
+                     nghiem2 = (-b - Math.sqrt(delta))/(2*a)
+                     console.log("nghiệm phương trình nghiệm 1 = nghiệm 2 ="+ nghiem1 );
+                     
+                 }
+            }
+             else (phuongtrinh == 3) {
+                let a = prompt("nhập a vào : ")
+                b = prompt("nhập b vào :")
+                c = prompt("nhập c đi con chó : ")
+                d =prompt("nhập nhanh đê =")
+                if (a == 0){
+                    console.log("tính con cặc bây giờ nó là phương trình bặc hai rồi ngu vãi l");
+                 }
+                 else (d==0){
+                     console.log("nó có 1 nghiệm bằng 0 ngu thế. bấm lại phần bậc hai đi");
+                     
+                 }
+
+                delta0=b**2 - 3*a*c
+                delta1=2*(b**3) - 9*a*b*c + 27* d*(a**2) 
+                delta=(delta1**2 - 4*delta0**3)/(27*a**2) 
+                if ( )
+             }
+              
+
+
+            
+        }
 
 
     </script>
 </body>
+
 </html>
